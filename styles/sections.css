@@ -1,0 +1,42 @@
+.introducao {
+    background-image: url(../assets/images/Background_Intro.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 750px;
+    justify-items: center;
+    padding-top: 120px;
+
+    /*Olhar uma forma mais facil de fazer isso*/
+    p:nth-child(2) {
+        font: var(--subtitle);
+        
+    }
+    
+    .detalhe-nome {
+        color: var(--red);
+    }
+
+    h1 {
+        font: var(--title-lg);
+    }
+    p:nth-child(4) {
+        font: var(--text-sm);
+        text-align: center;
+        color: var(--gray-300);
+        
+    }
+}
+
+.apresentacao {
+    width: 680px;
+    justify-items: center;
+
+}
+
+.tecnologias {
+
+    li {
+        list-style: none;
+    }
+}

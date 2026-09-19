@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-root {
+:root {
 
   /* colors */
   --red: #E3646E;
@@ -32,6 +32,12 @@ root {
   --text-sm: 400 14px/140% var(--font-family-maven-pro);
 }
 
+body {
+  color: var(--gray-100);
+  font: var(--text-md);
+  background-color: var(--gray-500);
+}
+
 
 a {
   text-decoration: none;
@@ -39,6 +45,12 @@ a {
 }
 
 .container {
-  max-width: 90vw;
+  width: 100%;
+  max-width: 1280px;
   margin-inline: auto;
+  padding-block: auto;
+}
+
+img {
+  max-width: 100%;
 }
