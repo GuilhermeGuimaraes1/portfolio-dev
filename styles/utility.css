@@ -5,3 +5,15 @@
 .grid-flow-col {
   grid-auto-flow: column;
 }
+
+.subtitulo {
+  font: var(--subtitle);
+  color: var(--red);
+  gap: 8px;
+}
+
+h2 {
+  font: var(--title-md);
+  color: var(--gray-100);
+  padding-bottom: 32px;
+}

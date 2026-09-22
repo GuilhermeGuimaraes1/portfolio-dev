@@ -1,0 +1,36 @@
+#meu-trabalho {
+  justify-items: center;
+  padding-bottom: 144px;
+  
+}
+
+.projetos {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column; 
+  align-items: start;
+  padding: 12px;
+  background: var(--gray-400);
+  border-radius: 12px;
+  gap: 16px;
+
+  img {
+    border-radius: 8px;
+  }
+
+  h3 {
+    color: var(--gray-100);
+    font: var(--title-sm);
+  }
+
+  p {
+    font: var(--text-sm);
+    color: var(--gray-200);
+  }
+
+}
