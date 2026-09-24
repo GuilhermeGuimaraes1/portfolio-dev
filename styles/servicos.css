@@ -2,12 +2,19 @@
   background: var(--gray-600);
   padding-block: 80px;
   justify-items: center;
+  
 }
 
 .servicos {
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
-  justify-items: center;
+  justify-content: center;
+  max-width: 1280px;
+  padding-block: 20px;
+
+  h3 {
+    padding-block: 8px;
+  }
 }
 
 .card-servicos {
