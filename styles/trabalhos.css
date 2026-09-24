@@ -1,6 +1,11 @@
 #meu-trabalho {
   justify-items: center;
   padding-bottom: 144px;
+
+  h2 {
+    
+    padding-bottom: 40px;
+  }
   
 }
 
